@@ -1,0 +1,25 @@
+Hello. Learning Git.
+//git init ==> initializes git repository.
+//git config --global user.name "FIRST_NAME LAST_NAME"==> sets global username
+git config --global user.email "xxx@gmail.com"=>sets global user Email.
+
+To add files to staging area:
+=> Git add filename => adds only one file
+
+=>git add filename1 filename2 filename3=> adds multiple files to staging area
+
+=>git add . =>adds all file in current repository to staging area
+
+=> git commit -m "some message desc."=> commits the file
+
+
+=>git log => shows commit history
+=>git log --oneline =>shows commit history in one line
+
+
+=> if anyone want to go to previous history of files or project then  <=
+    => git log --oneline => shows commit history with unique identification number in one line
+    => git checkout cgdf57899 => goes to given snapshot of file/project
+    =>git checkout master => rollbacks to the main branch.
+
+=> chnaging author and committer name.
